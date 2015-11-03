@@ -1,0 +1,38 @@
+// style guide variables
+
+$headline-text: 3rem; // 3rem;
+$body-text: 1rem; // 1rem;
+$nav-item: 1.25rem; // 1.25rem;
+$sub-header: 1.50rem; // 1.5rem;
+$byLine: 0.75rem; //0.75rem;
+$headline-margin: 2px;
+
+$san-serif:
+$serif: 'Roboto Mono 20px', serif;
+
+body {
+  font-size: 16px;
+
+}
+
+h1 {
+  font-family: $serif:
+  font-size: $headline-text;
+  margin: $headline-margin;
+}
+
+p {
+  font-size: $body-text;
+}
+
+nav li {
+  font-size: $nav-item;
+}
+
+h2 {
+  font-size: $sub-header;
+}
+
+figcaption {
+  font-size: $byLine;
+}
